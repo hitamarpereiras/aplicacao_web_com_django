@@ -8,10 +8,7 @@
     <title>Site Para Teste</title>
 </head>
 <body class="body">
-    <header class="header">
-        <h1>Title here</h1>
-    </header>
-    <section class="section_body">
+    <main class="main">
         <nav class="nav">
             <a href="#" class="linknav">Links 0</a>
             <a href="#" class="linknav">Links 0</a>
@@ -20,10 +17,25 @@
             <a href="#" class="linknav">Links 0</a>
         </nav>
         <article class="articles">
+            <header class="header">
+                <h1>Title here</h1>
+            </header>
             <form action="" class="formulario">
-                <label for="name_user">Name</label>
+                <label for="name_user">Nome completo</label>
+                
+                <section class="genero_user">
+                    <input type="radio" name="genero" id="masculino">
+                    <label for="genero">Masculino</label>
+                    
+                    <input type="radio" name="genero" id="feminino">
+                    <label for="genero">Feminino</label>
+                    
+                    <input type="radio" name="genero" id="outros">
+                    <label for="genero">Outros</label>                    
+                </section>
+                
+                <label for="adress_user">Endereço</label>
                 <input type="text" id="name_user" maxlength="50">
-                <label for="adress_user">Adress</label>
                 <input type="text" id="adress_user" maxlength="50">
                 <label for="vagas_user">Vagas disponiveis</label>
                 <select name="vagas_user" id="vagas_user">
@@ -38,6 +50,6 @@
                 <p>Desenvolvido por <a href="#" target="_blank">Hitamar Silva&copy;</a></p>
             </section>
         </footer>
-    </section>
+    </main>
 </body>
 </html>
