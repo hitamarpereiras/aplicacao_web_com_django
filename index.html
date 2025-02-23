@@ -22,6 +22,14 @@
             </header>
             <form action="" class="formulario">
                 <label for="name_user">Nome completo</label>
+                <input type="text" id="name_user" maxlength="50">
+                <label for="nivel">Escolaridade</label>
+                <select name="nivel_user" id="nivel">
+                    <option value="E. Medio">Ensino Medio completo</option>
+                    <option value="E. Superior">Nivel Superior Completo</option>
+                    <option value="Cursando Superior">Cursando Ensino Superior</option>
+                    <option value="Cursando Medio">Cursando Ensino Medio</option>
+                </select>
                 
                 <section class="genero_user">
                     <input type="radio" name="genero" id="masculino">
@@ -35,7 +43,6 @@
                 </section>
                 
                 <label for="adress_user">Endereço</label>
-                <input type="text" id="name_user" maxlength="50">
                 <input type="text" id="adress_user" maxlength="50">
                 <label for="vagas_user">Vagas disponiveis</label>
                 <select name="vagas_user" id="vagas_user">
