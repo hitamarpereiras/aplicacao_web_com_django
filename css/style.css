@@ -1,5 +1,7 @@
 /* Comentario */
 
 .body{
+    display: flex;
+    flex-direction: column;
     background-color: #88b7c6;
 }
