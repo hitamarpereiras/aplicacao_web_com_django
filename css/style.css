@@ -23,7 +23,6 @@
 .main{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
 }
 
 .nav{
@@ -54,4 +53,23 @@
 .formulario{
     display: flex;
     flex-direction: column;
+}
+
+.genero_user{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    align-items: center;
+    padding: .5rem 0;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    background-color: #a0a0a0;
 }

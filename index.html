@@ -18,11 +18,15 @@
         </nav>
         <article class="articles">
             <header class="header">
-                <h1>Title here</h1>
+                <h1>Cadastre-se!</h1>
             </header>
             <form action="" class="formulario">
                 <label for="name_user">Nome completo</label>
-                <input type="text" id="name_user" maxlength="50">
+                <input type="text" id="name_user" maxlength="60">
+                <label for="adress_user">Endereço</label>
+                <input type="text" id="adress_user" maxlength="50">
+                <label for="social_user">Rede Social</label>
+                <input type="text" id="social_user" maxlength="30">
                 <label for="nivel">Escolaridade</label>
                 <select name="nivel_user" id="nivel">
                     <option value="E. Medio">Ensino Medio completo</option>
@@ -33,17 +37,15 @@
                 
                 <section class="genero_user">
                     <input type="radio" name="genero" id="masculino">
-                    <label for="genero">Masculino</label>
+                    <label for="masculino">Masculino</label>
                     
                     <input type="radio" name="genero" id="feminino">
-                    <label for="genero">Feminino</label>
+                    <label for="feminino">Feminino</label>
                     
                     <input type="radio" name="genero" id="outros">
-                    <label for="genero">Outros</label>                    
+                    <label for="outros">Outros</label>                    
                 </section>
                 
-                <label for="adress_user">Endereço</label>
-                <input type="text" id="adress_user" maxlength="50">
                 <label for="vagas_user">Vagas disponiveis</label>
                 <select name="vagas_user" id="vagas_user">
                     <option value="Entregador">Entregador</option>
