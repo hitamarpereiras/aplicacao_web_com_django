@@ -37,6 +37,7 @@
         text-decoration: none;
         color: #ebe9e9;
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: .5rem;
     }
 }
 
@@ -51,17 +52,65 @@
 }
 
 .formulario{
+    width: 80%;
     display: flex;
     flex-direction: column;
+
+    label{
+        cursor: pointer;
+        padding: 5px 0;
+        font-size: 1.2rem;
+    }
+
+    input{
+        border: none;
+        border-radius: 16px;
+        padding: .5rem;
+    }
+
+    select{
+        cursor: pointer;
+        border: none;
+        border-radius: 16px;
+        padding: .5rem;
+    }
 }
 
 .genero_user{
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    justify-content:flex-start;
     align-items: center;
     padding: .5rem 0;
+    gap: 5px;
+}
+
+.buttons_class{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.2rem;
+    gap: 1rem;
+
+    button{
+        cursor: pointer;
+        background-color: #cccccc;
+        border: none;
+        border-radius: 24px;
+        padding: 1rem;
+        width: 40%;
+        height: auto;
+        transition-duration: 300ms;
+    }
+
+    button:hover{
+        filter: brightness(.9);
+    }
+
+    #button_enviar{
+        background-color: aquamarine;
+    }
 }
 
 .footer{
